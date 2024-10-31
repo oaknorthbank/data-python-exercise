@@ -1,7 +1,7 @@
 Pairing Exercise: Python
 ========================
 
-This is a pairing exercise for prospective full-stack/back-end developers with a focus on Python.
+This is a pairing exercise for prospective data engineers with a focus on Python.
 
 The candidate should guide the exercise and do as much as is feasible within the time limit (~30-35 minutes).
 
