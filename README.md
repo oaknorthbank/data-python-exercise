@@ -1,0 +1,32 @@
+Pairing Exercise: Python
+========================
+
+This is a pairing exercise for prospective data engineers with a focus on Python.
+
+The candidate should guide the exercise and do as much as is feasible within the time limit (~30-35 minutes).
+
+## Workflow
+
+The candidate can choose to use any tools, IDEs and editors they like and is expected to have some setup to be able to share their screen and write Python code.
+
+The pairing exercise should be run following [Test-Driven Development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development). The candidate doesn't need to have previous TDD experience, but some understanding of what it is at high level can be helpful.
+
+The main idea is to start by writing a failing test with the expected behaviour of the code, and then work on it until the test passes.
+
+## Setup
+
+The exercise should not require the use of any external dependencies except for `pytest` to run the tests.
+
+If using `pipenv`:
+
+```bash
+pipenv install --dev
+pipenv run pytest .
+```
+
+Alternatively, if `pipenv` is not installed:
+
+```bash 
+pip install pytest
+pytest .
+```
